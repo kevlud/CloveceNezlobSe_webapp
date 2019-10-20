@@ -66,8 +66,8 @@ export class Game {
     // BEGIN SOCKET.IO
     private initSocket() {
         // @ts-ignore
-        //this.socket = io('https://clovece-nezlob-se-server.herokuapp.com/');
-        this.socket = io('localhost:3000');
+        this.socket = io('https://clovece-nezlob-se-server.herokuapp.com/');
+        //this.socket = io('localhost:3000');
         this.socket.on('your name', this.onMyName);
         this.socket.on('player list', this.onPlayerList);
         this.socket.on('choose color', this.onChooseColor);
