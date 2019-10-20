@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "allowJs": true,
+    "sourceMap": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "noUnusedLocals": false,
+    "outDir": "dist/"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

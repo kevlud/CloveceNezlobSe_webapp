@@ -1,0 +1,17 @@
+.board svg {
+    margin: 0 auto;
+    display: block;
+}
+
+
+.draggable {
+    cursor: grab;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.sidebar {
+    position: absolute;
+}

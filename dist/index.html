@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="sidebar">
+			<div style="font-size: 20pt;">
+				You are: <b id="my_name">OPA</b>
+			</div>
+			<div style="font-size: 20pt;">
+				Your color: <b id="my_color">-</b>
+			</div>
+			<div style="font-size: 20pt;">
+				<b id="status"></b>
+			</div>
+			<h2>Connected Users</h2>
+			<ul id="playerList">
+
+			</ul>
+
+			<button id="start_game_btn">Start Game</button>
+		</div>
+		<div class="board">
+			<svg width="970px" height="970px" viewBox="0 0 970 970" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+				<title>board</title>
+				<desc>Created with Sketch.</desc>
+				<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					<g id="Main-Window" transform="translate(-475.000000, -55.000000)">
+						<g id="board" transform="translate(480.000000, 60.000000)">
+							<g id="background">
+								<rect id="bg_plane" stroke="#000000" stroke-width="5" fill="#E5D3A6" x="-2.5" y="-2.5" width="965"
+									  height="965"></rect>
+								<polygon id="Path" stroke="#000000" stroke-width="4"
+										 points="395 55 565 55 565 395 905 395 905 565 565 565 565 905 395 905 395 565 55 565 55 395 395 395"></polygon>
+								<g id="arrow_3"
+								   transform="translate(895.000000, 628.000000) rotate(-90.000000) translate(-895.000000, -628.000000) translate(887.000000, 583.000000)">
+									<polygon id="Path-2" fill="#000000" points="8 0 16 14 -5.32907052e-14 14"></polygon>
+									<path d="M8,13.5 L8,87" id="Line" stroke="#000000" stroke-linecap="square"></path>
+									<polyline id="Path-3-Copy-3" stroke="#000000" points="0 90 8 82 16 90"></polyline>
+									<polyline id="Path-3-Copy-5" stroke="#000000" points="0 82 8 74 16 82"></polyline>
+									<polyline id="Path-3-Copy-7" stroke="#000000" points="0 74 8 66 16 74"></polyline>
+									<polyline id="Path-3-Copy-9" stroke="#000000" points="0 66 8 58 16 66"></polyline>
+									<polyline id="Path-3-Copy-4" stroke="#000000" points="0 86 8 78 16 86"></polyline>
+									<polyline id="Path-3-Copy-6" stroke="#000000" points="0 78 8 70 16 78"></polyline>
+									<polyline id="Path-3-Copy-8" stroke="#000000" points="0 70 8 62 16 70"></polyline>
+								</g>
+								<g id="arrow_2"
+								   transform="translate(628.000000, 65.000000) rotate(-180.000000) translate(-628.000000, -65.000000) translate(620.000000, 20.000000)">
+									<polygon id="Path-2" fill="#000000" points="8 0 16 14 -5.32907052e-14 14"></polygon>
+									<path d="M8,13.5 L8,87" id="Line" stroke="#000000" stroke-linecap="square"></path>
+									<polyline id="Path-3-Copy-3" stroke="#000000" points="0 90 8 82 16 90"></polyline>
+									<polyline id="Path-3-Copy-5" stroke="#000000" points="0 82 8 74 16 82"></polyline>
+									<polyline id="Path-3-Copy-7" stroke="#000000" points="0 74 8 66 16 74"></polyline>
+									<polyline id="Path-3-Copy-9" stroke="#000000" points="0 66 8 58 16 66"></polyline>
+									<polyline id="Path-3-Copy-4" stroke="#000000" points="0 86 8 78 16 86"></polyline>
+									<polyline id="Path-3-Copy-6" stroke="#000000" points="0 78 8 70 16 78"></polyline>
+									<polyline id="Path-3-Copy-8" stroke="#000000" points="0 70 8 62 16 70"></polyline>
+								</g>
+								<g id="arrow_1"
+								   transform="translate(65.000000, 332.000000) rotate(-270.000000) translate(-65.000000, -332.000000) translate(57.000000, 287.000000)">
+									<polygon id="Path-2" fill="#000000" points="8 0 16 14 -5.32907052e-14 14"></polygon>
+									<path d="M8,13.5 L8,87" id="Line" stroke="#000000" stroke-linecap="square"></path>
+									<polyline id="Path-3-Copy-3" stroke="#000000" points="0 90 8 82 16 90"></polyline>
+									<polyline id="Path-3-Copy-5" stroke="#000000" points="0 82 8 74 16 82"></polyline>
+									<polyline id="Path-3-Copy-7" stroke="#000000" points="0 74 8 66 16 74"></polyline>
+									<polyline id="Path-3-Copy-9" stroke="#000000" points="0 66 8 58 16 66"></polyline>
+									<polyline id="Path-3-Copy-4" stroke="#000000" points="0 86 8 78 16 86"></polyline>
+									<polyline id="Path-3-Copy-6" stroke="#000000" points="0 78 8 70 16 78"></polyline>
+									<polyline id="Path-3-Copy-8" stroke="#000000" points="0 70 8 62 16 70"></polyline>
+								</g>
+								<g id="arrow_0" transform="translate(324.000000, 850.000000)">
+									<polygon id="Path-2" fill="#000000" points="8 0 16 14 -5.32907052e-14 14"></polygon>
+									<path d="M8,13.5 L8,87" id="Line" stroke="#000000" stroke-linecap="square"></path>
+									<polyline id="Path-3-Copy-3" stroke="#000000" points="0 90 8 82 16 90"></polyline>
+									<polyline id="Path-3-Copy-5" stroke="#000000" points="0 82 8 74 16 82"></polyline>
+									<polyline id="Path-3-Copy-7" stroke="#000000" points="0 74 8 66 16 74"></polyline>
+									<polyline id="Path-3-Copy-9" stroke="#000000" points="0 66 8 58 16 66"></polyline>
+									<polyline id="Path-3-Copy-4" stroke="#000000" points="0 86 8 78 16 86"></polyline>
+									<polyline id="Path-3-Copy-6" stroke="#000000" points="0 78 8 70 16 78"></polyline>
+									<polyline id="Path-3-Copy-8" stroke="#000000" points="0 70 8 62 16 70"></polyline>
+								</g>
+							</g>
+							<g id="positions" transform="translate(20.000000, 20.000000)" stroke="#000000" stroke-width="3">
+								<circle id="pos_39" class="boardPosition position" fill="#FFFFFF" cx="460" cy="885" r="33.5"></circle>
+								<circle id="pos_38" class="boardPosition position" fill="#FFFFFF" cx="545" cy="885" r="33.5"></circle>
+								<circle id="pos_37" class="boardPosition position" fill="#FFFFFF" cx="545" cy="800" r="33.5"></circle>
+								<circle id="pos_36" class="boardPosition position" fill="#FFFFFF" cx="545" cy="715" r="33.5"></circle>
+								<circle id="pos_35" class="boardPosition position" fill="#FFFFFF" cx="545" cy="630" r="33.5"></circle>
+								<circle id="pos_34" class="boardPosition position" fill="#FFFFFF" cx="545" cy="545" r="33.5"></circle>
+								<circle id="pos_33" class="boardPosition position" fill="#FFFFFF" cx="630" cy="545" r="33.5"></circle>
+								<circle id="pos_32" class="boardPosition position" fill="#FFFFFF" cx="715" cy="545" r="33.5"></circle>
+								<circle id="pos_31" class="boardPosition position" fill="#FFFFFF" cx="800" cy="545" r="33.5"></circle>
+								<circle id="pos_30" class="boardPosition position" fill="#14B54F" cx="885" cy="545" r="33.5"></circle>
+								<circle id="pos_29" class="boardPosition position" fill="#FFFFFF" cx="885" cy="460" r="33.5"></circle>
+								<circle id="pos_28" class="boardPosition position" fill="#FFFFFF" cx="885" cy="375" r="33.5"></circle>
+								<circle id="pos_27" class="boardPosition position" fill="#FFFFFF" cx="800" cy="375" r="33.5"></circle>
+								<circle id="pos_26" class="boardPosition position" fill="#FFFFFF" cx="715" cy="375" r="33.5"></circle>
+								<circle id="pos_25" class="boardPosition position" fill="#FFFFFF" cx="630" cy="375" r="33.5"></circle>
+								<circle id="pos_24" class="boardPosition position" fill="#FFFFFF" cx="545" cy="375" r="33.5"></circle>
+								<circle id="pos_23" class="boardPosition position" fill="#FFFFFF" cx="545" cy="290" r="33.5"></circle>
+								<circle id="pos_22" class="boardPosition position" fill="#FFFFFF" cx="545" cy="205" r="33.5"></circle>
+								<circle id="pos_21" class="boardPosition position" fill="#FFFFFF" cx="545" cy="120" r="33.5"></circle>
+								<circle id="pos_20" class="boardPosition position" fill="#369AE0" cx="545" cy="35" r="33.5"></circle>
+								<circle id="pos_19" class="boardPosition position" fill="#FFFFFF" cx="460" cy="35" r="33.5"></circle>
+								<circle id="pos_18" class="boardPosition position" fill="#FFFFFF" cx="375" cy="35" r="33.5"></circle>
+								<circle id="pos_17" class="boardPosition position" fill="#FFFFFF" cx="375" cy="120" r="33.5"></circle>
+								<circle id="pos_16" class="boardPosition position" fill="#FFFFFF" cx="375" cy="205" r="33.5"></circle>
+								<circle id="pos_15" class="boardPosition position" fill="#FFFFFF" cx="375" cy="290" r="33.5"></circle>
+								<circle id="pos_14" class="boardPosition position" fill="#FFFFFF" cx="375" cy="375" r="33.5"></circle>
+								<circle id="pos_13" class="boardPosition position" fill="#FFFFFF" cx="290" cy="375" r="33.5"></circle>
+								<circle id="pos_12" class="boardPosition position" fill="#FFFFFF" cx="205" cy="375" r="33.5"></circle>
+								<circle id="pos_11" class="boardPosition position" fill="#FFFFFF" cx="120" cy="375" r="33.5"></circle>
+								<circle id="pos_10" class="boardPosition position" fill="#EE4424" cx="35" cy="375" r="33.5"></circle>
+								<circle id="pos_9" class="boardPosition position" fill="#FFFFFF" cx="35" cy="460" r="33.5"></circle>
+								<circle id="pos_8" class="boardPosition position" fill="#FFFFFF" cx="35" cy="545" r="33.5"></circle>
+								<circle id="pos_7" class="boardPosition position" fill="#FFFFFF" cx="120" cy="545" r="33.5"></circle>
+								<circle id="pos_6" class="boardPosition position" fill="#FFFFFF" cx="205" cy="545" r="33.5"></circle>
+								<circle id="pos_5" class="boardPosition position" fill="#FFFFFF" cx="290" cy="545" r="33.5"></circle>
+								<circle id="pos_4" class="boardPosition position" fill="#FFFFFF" cx="375" cy="545" r="33.5"></circle>
+								<circle id="pos_3" class="boardPosition position" fill="#FFFFFF" cx="375" cy="630" r="33.5"></circle>
+								<circle id="pos_2" class="boardPosition position" fill="#FFFFFF" cx="375" cy="715" r="33.5"></circle>
+								<circle id="pos_1" class="boardPosition position" fill="#FFFFFF" cx="375" cy="800" r="33.5"></circle>
+								<circle id="pos_0" class="boardPosition position" fill="#FFEA51" cx="375" cy="885" r="33.5"></circle>
+							</g>
+							<g id="wining_positions" transform="translate(115.000000, 115.000000)" stroke="#000000" stroke-width="2">
+								<g id="yellow" fill="#FFEA51">
+									<circle id="win_position_3" class="winPosition position yellow" cx="365" cy="450" r="24"></circle>
+									<circle id="win_position_2" class="winPosition position yellow" cx="365" cy="535" r="24"></circle>
+									<circle id="win_position_1" class="winPosition position yellow" cx="365" cy="620" r="24"></circle>
+									<circle id="win_position_0" class="winPosition position yellow" cx="365" cy="705" r="24"></circle>
+								</g>
+								<g id="red" fill="#EE4424">
+									<circle id="win_position_4" class="winPosition position red" cx="25" cy="365" r="24"></circle>
+									<circle id="win_position_5" class="winPosition position red" cx="110" cy="365" r="24"></circle>
+									<circle id="win_position_6" class="winPosition position red" cx="195" cy="365" r="24"></circle>
+									<circle id="win_position_7" class="winPosition position red" cx="280" cy="365" r="24"></circle>
+								</g>
+								<g id="green" fill="#14B54F">
+									<circle id="win_position_11" class="winPosition position green" cx="450" cy="365" r="24"></circle>
+									<circle id="win_position_10" class="winPosition position green" cx="535" cy="365" r="24"></circle>
+									<circle id="win_position_9" class="winPosition position green" cx="620" cy="365" r="24"></circle>
+									<circle id="win_position_8" class="winPosition position green" cx="705" cy="365" r="24"></circle>
+								</g>
+								<g id="blue" fill="#369AE0">
+									<circle id="win_position_12" class="winPosition position blue" cx="365" cy="25" r="24"></circle>
+									<circle id="win_position_13" class="winPosition position blue" cx="365" cy="110" r="24"></circle>
+									<circle id="win_position_14" class="winPosition position blue" cx="365" cy="195" r="24"></circle>
+									<circle id="win_position_15" class="winPosition position blue" cx="365" cy="280" r="24"></circle>
+								</g>
+							</g>
+							<g id="starting_positions" transform="translate(20.000000, 20.000000)" stroke="#000000"
+							   stroke-width="3">
+								<g id="yellow" fill="#FFEA51">
+									<circle id="start_position_0" class="startPosition position yellow" cx="35" cy="885" r="33.5"></circle>
+									<circle id="start_position_1" class="startPosition position yellow" cx="35" cy="800" r="33.5"></circle>
+									<circle id="start_position_2" class="startPosition position yellow" cx="120" cy="885" r="33.5"></circle>
+									<circle id="start_position_3" class="startPosition position yellow" cx="120" cy="800" r="33.5"></circle>
+								</g>
+								<g id="red" fill="#EE4424">
+									<circle id="start_position_4" class="startPosition position red" cx="35" cy="35" r="33.5"></circle>
+									<circle id="start_position_5" class="startPosition position red" cx="35" cy="120" r="33.5"></circle>
+									<circle id="start_position_6" class="startPosition position red" cx="120" cy="35" r="33.5"></circle>
+									<circle id="start_position_7" class="startPosition position red" cx="120" cy="120" r="33.5"></circle>
+								</g>
+								<g id="green" fill="#14B54F">
+									<circle id="start_position_8" class="startPosition position green" cx="800" cy="885" r="33.5"></circle>
+									<circle id="start_position_9" class="startPosition position green" cx="800" cy="800" r="33.5"></circle>
+									<circle id="start_position_10" class="startPosition position green" cx="885" cy="885" r="33.5"></circle>
+									<circle id="start_position_11" class="startPosition position green" cx="885" cy="800" r="33.5"></circle>
+								</g>
+								<g id="blue" fill="#369AE0">
+									<circle id="start_position_12" class="startPosition position blue" cx="800" cy="35" r="33.5"></circle>
+									<circle id="start_position_13" class="startPosition position blue" cx="800" cy="120" r="33.5"></circle>
+									<circle id="start_position_14" class="startPosition position blue" cx="885" cy="35" r="33.5"></circle>
+									<circle id="start_position_15" class="startPosition position blue" cx="885" cy="120" r="33.5"></circle>
+								</g>
+							</g>
+							<g id="figures" transform="translate(0.000000, 0.000000)" stroke-width="1.45454545">
+								<g id="figure_yellow_0" class="draggable figure player yellow" fill="#FFEA51" stroke="#756807">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+								<g id="figure_yellow_1" class="draggable figure player yellow" fill="#FFEA51" stroke="#756807">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+								<g id="figure_yellow_2" class="draggable figure player yellow" fill="#FFEA51" stroke="#756807">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+								<g id="figure_yellow_3" class="draggable figure player yellow" fill="#FFEA51" stroke="#756807">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+
+								<g id="figure_red_4" class="draggable figure player red" fill="#EE4424" stroke="#9B0000">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+								<g id="figure_red_5" class="draggable figure player red" fill="#EE4424" stroke="#9B0000">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+								<g id="figure_red_6" class="draggable figure player red" fill="#EE4424" stroke="#9B0000">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+								<g id="figure_red_7" class="draggable figure player red" fill="#EE4424" stroke="#9B0000">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+
+								<g id="figure_green_8" class="draggable figure player green" fill="#14B54F" stroke="#076128">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+								<g id="figure_green_9" class="draggable figure player green" fill="#14B54F" stroke="#076128">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+								<g id="figure_green_10" class="draggable figure player green" fill="#14B54F" stroke="#076128">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+								<g id="figure_green_11" class="draggable figure player green" fill="#14B54F" stroke="#076128">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+
+								<g id="figure_blue_12" class="draggable figure player blue" fill="#369AE0" stroke="#07436d">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+								<g id="figure_blue_13" class="draggable figure player blue" fill="#369AE0" stroke="#07436d">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+								<g id="figure_blue_14" class="draggable figure player blue" fill="#369AE0" stroke="#07436d">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+								<g id="figure_blue_15" class="draggable figure player blue" fill="#369AE0" stroke="#07436d">
+									<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+									<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+									<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+								</g>
+
+							</g>
+							<g id="dice" class="clickable dice" transform="translate(455.000000, 455.000000)">
+								<rect id="Rectangle" stroke="#000000" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="48" height="48" rx="10"></rect>
+								<g id="dice_1" style="display:none;" transform="translate(21.000000, 21.000000)" fill="#000000">
+									<circle id="Oval" cx="4" cy="4" r="4"></circle>
+								</g>
+								<g id="dice_2" style="display:none;" transform="translate(7.000000, 8.000000)" fill="#000000">
+									<circle id="Oval-Copy-12" cx="32" cy="30" r="4"></circle>
+									<circle id="Oval-Copy-5" cx="4" cy="4" r="4"></circle>
+								</g>
+								<g id="dice_3" style="display:none;" transform="translate(7.000000, 8.000000)" fill="#000000">
+									<circle id="Oval" cx="18" cy="17" r="4"></circle>
+									<circle id="Oval-Copy-12" cx="32" cy="30" r="4"></circle>
+									<circle id="Oval-Copy-5" cx="4" cy="4" r="4"></circle>
+								</g>
+								<g id="dice_4" style="display:none;" transform="translate(7.000000, 8.000000)" fill="#000000">
+									<circle id="Oval-Copy-4" cx="32" cy="4" r="4"></circle>
+									<circle id="Oval-Copy-12" cx="32" cy="30" r="4"></circle>
+									<circle id="Oval-Copy-5" cx="4" cy="4" r="4"></circle>
+									<circle id="Oval-Copy-13" cx="4" cy="30" r="4"></circle>
+								</g>
+								<g id="dice_5" style="display:none;" transform="translate(7.000000, 8.000000)" fill="#000000">
+									<circle id="Oval" cx="18" cy="17" r="4"></circle>
+									<circle id="Oval-Copy-4" cx="32" cy="4" r="4"></circle>
+									<circle id="Oval-Copy-12" cx="32" cy="30" r="4"></circle>
+									<circle id="Oval-Copy-5" cx="4" cy="4" r="4"></circle>
+									<circle id="Oval-Copy-13" cx="4" cy="30" r="4"></circle>
+								</g>
+								<g id="dice_6" style="display:none;" transform="translate(7.000000, 8.000000)" fill="#000000">
+									<circle id="Oval-Copy" cx="32" cy="17" r="4"></circle>
+									<circle id="Oval-Copy-4" cx="32" cy="4" r="4"></circle>
+									<circle id="Oval-Copy-12" cx="32" cy="30" r="4"></circle>
+									<circle id="Oval-Copy-2" cx="4" cy="17" r="4"></circle>
+									<circle id="Oval-Copy-5" cx="4" cy="4" r="4"></circle>
+									<circle id="Oval-Copy-13" cx="4" cy="30" r="4"></circle>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</svg>
+
+		</div>
+		<script>
+            //var socket = io('localhost:3000');
+		</script>
+
+		<script src="./socket.io.js"></script>
+
+
+		<script src="app.js" type="module"></script>
+
+	</body>
+</html>

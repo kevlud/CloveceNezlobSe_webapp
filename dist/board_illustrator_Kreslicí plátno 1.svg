@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="figure_red_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 960 960" style="enable-background:new 0 0 960 960;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E5D3A6;stroke:#000000;stroke-width:5;}
+	.st1{fill:none;stroke:#000000;stroke-width:4;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;}
+	.st3{fill:none;stroke:#000000;stroke-linecap:square;}
+	.st4{fill:none;stroke:#000000;}
+	.st5{fill:#FFFFFF;stroke:#000000;stroke-width:3;}
+	.st6{fill:#14B54F;stroke:#000000;stroke-width:3;}
+	.st7{fill:#369AE0;stroke:#000000;stroke-width:3;}
+	.st8{fill:#EE4424;stroke:#000000;stroke-width:3;}
+	.st9{fill:#FFEA51;stroke:#000000;stroke-width:3;}
+	.st10{fill:#369AE0;stroke:#000000;stroke-width:2;}
+	.st11{fill:#FFEA51;stroke:#000000;stroke-width:2;}
+	.st12{fill:#EE4424;stroke:#000000;stroke-width:2;}
+	.st13{fill:#14B54F;stroke:#000000;stroke-width:2;}
+	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:#FFEA51;stroke:#695C00;stroke-width:1.45;}
+	.st15{fill:#FFEA51;stroke:#695C00;stroke-width:1.45;}
+	.st16{fill-rule:evenodd;clip-rule:evenodd;fill:#EE4424;stroke:#9B0000;stroke-width:1.45;}
+	.st17{fill:#EE4424;stroke:#9B0000;stroke-width:1.45;}
+</style>
+<g id="board">
+	<g id="background">
+		<rect id="bg_plane" x="-2.5" y="-2.5" class="st0" width="965" height="965"/>
+		<polygon id="Path" class="st1" points="395,55 565,55 565,395 905,395 905,565 565,565 565,905 395,905 395,565 55,565 55,395 
+			395,395 		"/>
+		<g id="arrow_3">
+			<polygon id="Path-2" class="st2" points="850,628 864,620 864,636 			"/>
+			<path id="Line" class="st3" d="M863.5,628H937"/>
+			<polyline id="Path-3-Copy-3" class="st4" points="940,636 932,628 940,620 			"/>
+			<polyline id="Path-3-Copy-5" class="st4" points="932,636 924,628 932,620 			"/>
+			<polyline id="Path-3-Copy-7" class="st4" points="924,636 916,628 924,620 			"/>
+			<polyline id="Path-3-Copy-9" class="st4" points="916,636 908,628 916,620 			"/>
+			<polyline id="Path-3-Copy-4" class="st4" points="936,636 928,628 936,620 			"/>
+			<polyline id="Path-3-Copy-6" class="st4" points="928,636 920,628 928,620 			"/>
+			<polyline id="Path-3-Copy-8" class="st4" points="920,636 912,628 920,620 			"/>
+		</g>
+		<g id="arrow_2">
+			<polygon class="st2" points="628,110 620,96 636,96 			"/>
+			<path class="st3" d="M628,96.5V23"/>
+			<polyline class="st4" points="636,20 628,28 620,20 			"/>
+			<polyline class="st4" points="636,28 628,36 620,28 			"/>
+			<polyline class="st4" points="636,36 628,44 620,36 			"/>
+			<polyline class="st4" points="636,44 628,52 620,44 			"/>
+			<polyline class="st4" points="636,24 628,32 620,24 			"/>
+			<polyline class="st4" points="636,32 628,40 620,32 			"/>
+			<polyline class="st4" points="636,40 628,48 620,40 			"/>
+		</g>
+		<g id="arrow_1">
+			<polygon class="st2" points="110,332 96,340 96,324 			"/>
+			<path class="st3" d="M96.5,332H23"/>
+			<polyline class="st4" points="20,324 28,332 20,340 			"/>
+			<polyline class="st4" points="28,324 36,332 28,340 			"/>
+			<polyline class="st4" points="36,324 44,332 36,340 			"/>
+			<polyline class="st4" points="44,324 52,332 44,340 			"/>
+			<polyline class="st4" points="24,324 32,332 24,340 			"/>
+			<polyline class="st4" points="32,324 40,332 32,340 			"/>
+			<polyline class="st4" points="40,324 48,332 40,340 			"/>
+		</g>
+		<g id="arrow_0">
+			<polygon class="st2" points="332,850 340,864 324,864 			"/>
+			<path class="st3" d="M332,863.5V937"/>
+			<polyline class="st4" points="324,940 332,932 340,940 			"/>
+			<polyline class="st4" points="324,932 332,924 340,932 			"/>
+			<polyline class="st4" points="324,924 332,916 340,924 			"/>
+			<polyline class="st4" points="324,916 332,908 340,916 			"/>
+			<polyline class="st4" points="324,936 332,928 340,936 			"/>
+			<polyline class="st4" points="324,928 332,920 340,928 			"/>
+			<polyline class="st4" points="324,920 332,912 340,920 			"/>
+		</g>
+	</g>
+	<g id="positions">
+		<circle id="pos_39" class="st5" cx="480" cy="905" r="33.5"/>
+		<circle id="pos_38" class="st5" cx="565" cy="905" r="33.5"/>
+		<circle id="pos_37" class="st5" cx="565" cy="820" r="33.5"/>
+		<circle id="pos_36" class="st5" cx="565" cy="735" r="33.5"/>
+		<circle id="pos_35" class="st5" cx="565" cy="650" r="33.5"/>
+		<circle id="pos_34" class="st5" cx="565" cy="565" r="33.5"/>
+		<circle id="pos_33" class="st5" cx="650" cy="565" r="33.5"/>
+		<circle id="pos_32" class="st5" cx="735" cy="565" r="33.5"/>
+		<circle id="pos_31" class="st5" cx="820" cy="565" r="33.5"/>
+		<circle id="pos_30" class="st6" cx="905" cy="565" r="33.5"/>
+		<circle id="pos_29" class="st5" cx="905" cy="480" r="33.5"/>
+		<circle id="pos_28" class="st5" cx="905" cy="395" r="33.5"/>
+		<circle id="pos_27" class="st5" cx="820" cy="395" r="33.5"/>
+		<circle id="pos_26" class="st5" cx="735" cy="395" r="33.5"/>
+		<circle id="pos_25" class="st5" cx="650" cy="395" r="33.5"/>
+		<circle id="pos_24" class="st5" cx="565" cy="395" r="33.5"/>
+		<circle id="pos_23" class="st5" cx="565" cy="310" r="33.5"/>
+		<circle id="pos_22" class="st5" cx="565" cy="225" r="33.5"/>
+		<circle id="pos_21" class="st5" cx="565" cy="140" r="33.5"/>
+		<circle id="pos_20" class="st7" cx="565" cy="55" r="33.5"/>
+		<circle id="pos_19" class="st5" cx="480" cy="55" r="33.5"/>
+		<circle id="pos_18" class="st5" cx="395" cy="55" r="33.5"/>
+		<circle id="pos_17" class="st5" cx="395" cy="140" r="33.5"/>
+		<circle id="pos_16" class="st5" cx="395" cy="225" r="33.5"/>
+		<circle id="pos_15" class="st5" cx="395" cy="310" r="33.5"/>
+		<circle id="pos_14" class="st5" cx="395" cy="395" r="33.5"/>
+		<circle id="pos_13" class="st5" cx="310" cy="395" r="33.5"/>
+		<circle id="pos_12" class="st5" cx="225" cy="395" r="33.5"/>
+		<circle id="pos_11" class="st5" cx="140" cy="395" r="33.5"/>
+		<circle id="pos_10" class="st8" cx="55" cy="395" r="33.5"/>
+		<circle id="pos_9" class="st5" cx="55" cy="480" r="33.5"/>
+		<circle id="pos_8" class="st5" cx="55" cy="565" r="33.5"/>
+		<circle id="pos_7" class="st5" cx="140" cy="565" r="33.5"/>
+		<circle id="pos_6" class="st5" cx="225" cy="565" r="33.5"/>
+		<circle id="pos_5" class="st5" cx="310" cy="565" r="33.5"/>
+		<circle id="pos_4" class="st5" cx="395" cy="565" r="33.5"/>
+		<circle id="pos_3" class="st5" cx="395" cy="650" r="33.5"/>
+		<circle id="pos_2" class="st5" cx="395" cy="735" r="33.5"/>
+		<circle id="pos_1" class="st5" cx="395" cy="820" r="33.5"/>
+		<circle id="pos_0" class="st9" cx="395" cy="905" r="33.5"/>
+	</g>
+	<g id="wining_positions">
+		<g id="blue">
+			<circle id="Oval-Copy-59" class="st10" cx="480" cy="140" r="24"/>
+			<circle id="Oval-Copy-60" class="st10" cx="480" cy="225" r="24"/>
+			<circle id="Oval-Copy-61" class="st10" cx="480" cy="310" r="24"/>
+			<circle id="Oval-Copy-75" class="st10" cx="480" cy="395" r="24"/>
+		</g>
+		<g id="yellow">
+			<circle class="st11" cx="480" cy="565" r="24"/>
+			<circle class="st11" cx="480" cy="650" r="24"/>
+			<circle class="st11" cx="480" cy="735" r="24"/>
+			<circle class="st11" cx="480" cy="820" r="24"/>
+		</g>
+		<g id="red">
+			<circle class="st12" cx="140" cy="480" r="24"/>
+			<circle class="st12" cx="225" cy="480" r="24"/>
+			<circle class="st12" cx="310" cy="480" r="24"/>
+			<circle class="st12" cx="395" cy="480" r="24"/>
+		</g>
+		<g id="green">
+			<circle class="st13" cx="565" cy="480" r="24"/>
+			<circle class="st13" cx="650" cy="480" r="24"/>
+			<circle class="st13" cx="735" cy="480" r="24"/>
+			<circle class="st13" cx="820" cy="480" r="24"/>
+		</g>
+	</g>
+	<g id="starting_positions">
+		<circle id="Oval-Copy-6" class="st9" cx="55" cy="905" r="33.5"/>
+		<circle id="Oval-Copy-8" class="st9" cx="55" cy="820" r="33.5"/>
+		<circle id="Oval-Copy-7" class="st9" cx="140" cy="905" r="33.5"/>
+		<circle id="Oval-Copy-72" class="st9" cx="140" cy="820" r="33.5"/>
+		<circle id="Oval-Copy-24" class="st8" cx="55" cy="55" r="33.5"/>
+		<circle id="Oval-Copy-26" class="st8" cx="55" cy="140" r="33.5"/>
+		<circle id="Oval-Copy-27" class="st8" cx="140" cy="55" r="33.5"/>
+		<circle id="Oval-Copy-29" class="st8" cx="140" cy="140" r="33.5"/>
+		<circle id="Oval-Copy-9" class="st6" cx="820" cy="905" r="33.5"/>
+		<circle id="Oval-Copy-73" class="st6" cx="820" cy="820" r="33.5"/>
+		<circle id="Oval-Copy-10" class="st6" cx="905" cy="905" r="33.5"/>
+		<circle id="Oval-Copy-74" class="st6" cx="905" cy="820" r="33.5"/>
+		<circle id="Oval-Copy-30" class="st7" cx="820" cy="55" r="33.5"/>
+		<circle id="Oval-Copy-32" class="st7" cx="820" cy="140" r="33.5"/>
+		<circle id="Oval-Copy-31" class="st7" cx="905" cy="55" r="33.5"/>
+		<circle id="Oval-Copy-33" class="st7" cx="905" cy="140" r="33.5"/>
+	</g>
+	<g id="figures">
+		<g id="figure_x5F_yellow_x5F_4">
+			<path id="stomp" class="st14" d="M124.7,909.6v6.4c9.4,5.7,21.2,5.7,30.5,0v-6.4L140,895.2L124.7,909.6z"/>
+			<path id="body" class="st14" d="M155.1,908.9l-8.8-28.1c-2,0.9-4.1,1.4-6.3,1.5c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1
+				C134.2,914.6,145.8,914.6,155.1,908.9L155.1,908.9z"/>
+			<ellipse id="head" class="st15" cx="140" cy="871.7" rx="9.9" ry="9.9"/>
+		</g>
+		<g id="figure_x5F_yellow_x5F_3">
+			<path class="st14" d="M39.7,909.6v6.4c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L55,895.2L39.7,909.6z"/>
+			<path class="st14" d="M70.1,908.9l-8.8-28.1c-2,0.9-4.1,1.4-6.3,1.5c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1
+				c4.6,2.7,9.8,4.1,15.1,4.2C60.3,913.1,65.5,911.6,70.1,908.9z"/>
+			<ellipse class="st15" cx="55" cy="871.7" rx="9.9" ry="9.9"/>
+		</g>
+		<g id="figure_x5F_yellow_x5F_2">
+			<path class="st14" d="M124.7,824.6v6.4c9.4,5.7,21.2,5.7,30.5,0v-6.4L140,810.2L124.7,824.6z"/>
+			<path class="st14" d="M155.1,823.9l-8.8-28.1c-2,0.9-4.1,1.4-6.3,1.5c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1
+				C134.2,829.6,145.8,829.6,155.1,823.9L155.1,823.9z"/>
+			<ellipse class="st15" cx="140" cy="786.7" rx="9.9" ry="9.9"/>
+		</g>
+		<g id="figure_x5F_yellow_x5F_1">
+			<path class="st14" d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"/>
+			<path class="st14" d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2
+				C5.3,22.1,10.5,20.6,15.1,17.9z"/>
+			<ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"/>
+		</g>
+		<path class="st16" d="M39.7,144.6v6.4c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L55,130.2L39.7,144.6z"/>
+		<path class="st16" d="M70.1,143.9l-8.8-28.1c-2,0.9-4.1,1.4-6.3,1.5c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2
+			C60.3,148.1,65.5,146.6,70.1,143.9z"/>
+		<ellipse class="st17" cx="55" cy="106.7" rx="9.9" ry="9.9"/>
+	</g>
+</g>
+</svg>
