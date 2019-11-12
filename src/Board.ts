@@ -3,7 +3,7 @@ import {PlayerFigure} from "./PlayerFigure.js";
 
 export class Board {
 
-    private boardMap: BoardMap;
+    public boardMap: BoardMap;
 
     public playerColor: FigureColor;
 
@@ -49,6 +49,13 @@ export class Board {
     }
 
     getMovedFigures(): FigureMovement[] {
+
+        this.turnMovement = [];
+
+        for (let figure of this.boardMap.figures) {
+            this.turnMovement.push(new FigureMovement(figure.svgId, figure.sittingOn().svgId))
+        }
+
         return this.turnMovement;
     }
 

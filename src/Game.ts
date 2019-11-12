@@ -101,6 +101,8 @@ export class Game {
             this.board = new Board(playerColor);
         document.getElementById('my_color').innerText = playerColor;
         document.getElementById('status').innerText = 'Starting game';
+
+        console.log(this.board.boardMap.figures)
     }
 
     private onOtherMoved = (msg) => {

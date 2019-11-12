@@ -81,6 +81,10 @@ export class Board {
         }
     }
     getMovedFigures() {
+        this.turnMovement = [];
+        for (let figure of this.boardMap.figures) {
+            this.turnMovement.push(new FigureMovement(figure.svgId, figure.sittingOn().svgId));
+        }
         return this.turnMovement;
     }
     isValidMove(currentlyDragged, targetBoardPosition) {

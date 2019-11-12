@@ -60,158 +60,319 @@
                     </g>
                 </g>
                 <g id="positions" transform="translate(20.000000, 20.000000)" stroke="#000000" stroke-width="3">
-                    <circle id="pos_39" fill="#FFFFFF" cx="460" cy="885" r="33.5"></circle>
-                    <circle id="pos_38" fill="#FFFFFF" cx="545" cy="885" r="33.5"></circle>
-                    <circle id="pos_37" fill="#FFFFFF" cx="545" cy="800" r="33.5"></circle>
-                    <circle id="pos_36" fill="#FFFFFF" cx="545" cy="715" r="33.5"></circle>
-                    <circle id="pos_35" fill="#FFFFFF" cx="545" cy="630" r="33.5"></circle>
-                    <circle id="pos_34" fill="#FFFFFF" cx="545" cy="545" r="33.5"></circle>
-                    <circle id="pos_33" fill="#FFFFFF" cx="630" cy="545" r="33.5"></circle>
-                    <circle id="pos_32" fill="#FFFFFF" cx="715" cy="545" r="33.5"></circle>
-                    <circle id="pos_31" fill="#FFFFFF" cx="800" cy="545" r="33.5"></circle>
-                    <circle id="pos_30" fill="#14B54F" cx="885" cy="545" r="33.5"></circle>
-                    <circle id="pos_29" fill="#FFFFFF" cx="885" cy="460" r="33.5"></circle>
-                    <circle id="pos_28" fill="#FFFFFF" cx="885" cy="375" r="33.5"></circle>
-                    <circle id="pos_27" fill="#FFFFFF" cx="800" cy="375" r="33.5"></circle>
-                    <circle id="pos_26" fill="#FFFFFF" cx="715" cy="375" r="33.5"></circle>
-                    <circle id="pos_25" fill="#FFFFFF" cx="630" cy="375" r="33.5"></circle>
-                    <circle id="pos_24" fill="#FFFFFF" cx="545" cy="375" r="33.5"></circle>
-                    <circle id="pos_23" fill="#FFFFFF" cx="545" cy="290" r="33.5"></circle>
-                    <circle id="pos_22" fill="#FFFFFF" cx="545" cy="205" r="33.5"></circle>
-                    <circle id="pos_21" fill="#FFFFFF" cx="545" cy="120" r="33.5"></circle>
-                    <circle id="pos_20" fill="#369AE0" cx="545" cy="35" r="33.5"></circle>
-                    <circle id="pos_19" fill="#FFFFFF" cx="460" cy="35" r="33.5"></circle>
-                    <circle id="pos_18" fill="#FFFFFF" cx="375" cy="35" r="33.5"></circle>
-                    <circle id="pos_17" fill="#FFFFFF" cx="375" cy="120" r="33.5"></circle>
-                    <circle id="pos_16" fill="#FFFFFF" cx="375" cy="205" r="33.5"></circle>
-                    <circle id="pos_15" fill="#FFFFFF" cx="375" cy="290" r="33.5"></circle>
-                    <circle id="pos_14" fill="#FFFFFF" cx="375" cy="375" r="33.5"></circle>
-                    <circle id="pos_13" fill="#FFFFFF" cx="290" cy="375" r="33.5"></circle>
-                    <circle id="pos_12" fill="#FFFFFF" cx="205" cy="375" r="33.5"></circle>
-                    <circle id="pos_11" fill="#FFFFFF" cx="120" cy="375" r="33.5"></circle>
-                    <circle id="pos_10" fill="#EE4424" cx="35" cy="375" r="33.5"></circle>
-                    <circle id="pos_9" fill="#FFFFFF" cx="35" cy="460" r="33.5"></circle>
-                    <circle id="pos_8" fill="#FFFFFF" cx="35" cy="545" r="33.5"></circle>
-                    <circle id="pos_7" fill="#FFFFFF" cx="120" cy="545" r="33.5"></circle>
-                    <circle id="pos_6" fill="#FFFFFF" cx="205" cy="545" r="33.5"></circle>
-                    <circle id="pos_5" fill="#FFFFFF" cx="290" cy="545" r="33.5"></circle>
-                    <circle id="pos_4" fill="#FFFFFF" cx="375" cy="545" r="33.5"></circle>
-                    <circle id="pos_3" fill="#FFFFFF" cx="375" cy="630" r="33.5"></circle>
-                    <circle id="pos_2" fill="#FFFFFF" cx="375" cy="715" r="33.5"></circle>
-                    <circle id="pos_1" fill="#FFFFFF" cx="375" cy="800" r="33.5"></circle>
-                    <circle id="pos_0" fill="#FFEA51" cx="375" cy="885" r="33.5"></circle>
+                    <circle id="pos_39" class="boardPosition position" fill="#FFFFFF" cx="460" cy="885"
+                            r="33.5"></circle>
+                    <circle id="pos_38" class="boardPosition position" fill="#FFFFFF" cx="545" cy="885"
+                            r="33.5"></circle>
+                    <circle id="pos_37" class="boardPosition position" fill="#FFFFFF" cx="545" cy="800"
+                            r="33.5"></circle>
+                    <circle id="pos_36" class="boardPosition position" fill="#FFFFFF" cx="545" cy="715"
+                            r="33.5"></circle>
+                    <circle id="pos_35" class="boardPosition position" fill="#FFFFFF" cx="545" cy="630"
+                            r="33.5"></circle>
+                    <circle id="pos_34" class="boardPosition position" fill="#FFFFFF" cx="545" cy="545"
+                            r="33.5"></circle>
+                    <circle id="pos_33" class="boardPosition position" fill="#FFFFFF" cx="630" cy="545"
+                            r="33.5"></circle>
+                    <circle id="pos_32" class="boardPosition position" fill="#FFFFFF" cx="715" cy="545"
+                            r="33.5"></circle>
+                    <circle id="pos_31" class="boardPosition position" fill="#FFFFFF" cx="800" cy="545"
+                            r="33.5"></circle>
+                    <circle id="pos_30" class="boardPosition position" fill="#14B54F" cx="885" cy="545"
+                            r="33.5"></circle>
+                    <circle id="pos_29" class="boardPosition position" fill="#FFFFFF" cx="885" cy="460"
+                            r="33.5"></circle>
+                    <circle id="pos_28" class="boardPosition position" fill="#FFFFFF" cx="885" cy="375"
+                            r="33.5"></circle>
+                    <circle id="pos_27" class="boardPosition position" fill="#FFFFFF" cx="800" cy="375"
+                            r="33.5"></circle>
+                    <circle id="pos_26" class="boardPosition position" fill="#FFFFFF" cx="715" cy="375"
+                            r="33.5"></circle>
+                    <circle id="pos_25" class="boardPosition position" fill="#FFFFFF" cx="630" cy="375"
+                            r="33.5"></circle>
+                    <circle id="pos_24" class="boardPosition position" fill="#FFFFFF" cx="545" cy="375"
+                            r="33.5"></circle>
+                    <circle id="pos_23" class="boardPosition position" fill="#FFFFFF" cx="545" cy="290"
+                            r="33.5"></circle>
+                    <circle id="pos_22" class="boardPosition position" fill="#FFFFFF" cx="545" cy="205"
+                            r="33.5"></circle>
+                    <circle id="pos_21" class="boardPosition position" fill="#FFFFFF" cx="545" cy="120"
+                            r="33.5"></circle>
+                    <circle id="pos_20" class="boardPosition position" fill="#369AE0" cx="545" cy="35"
+                            r="33.5"></circle>
+                    <circle id="pos_19" class="boardPosition position" fill="#FFFFFF" cx="460" cy="35"
+                            r="33.5"></circle>
+                    <circle id="pos_18" class="boardPosition position" fill="#FFFFFF" cx="375" cy="35"
+                            r="33.5"></circle>
+                    <circle id="pos_17" class="boardPosition position" fill="#FFFFFF" cx="375" cy="120"
+                            r="33.5"></circle>
+                    <circle id="pos_16" class="boardPosition position" fill="#FFFFFF" cx="375" cy="205"
+                            r="33.5"></circle>
+                    <circle id="pos_15" class="boardPosition position" fill="#FFFFFF" cx="375" cy="290"
+                            r="33.5"></circle>
+                    <circle id="pos_14" class="boardPosition position" fill="#FFFFFF" cx="375" cy="375"
+                            r="33.5"></circle>
+                    <circle id="pos_13" class="boardPosition position" fill="#FFFFFF" cx="290" cy="375"
+                            r="33.5"></circle>
+                    <circle id="pos_12" class="boardPosition position" fill="#FFFFFF" cx="205" cy="375"
+                            r="33.5"></circle>
+                    <circle id="pos_11" class="boardPosition position" fill="#FFFFFF" cx="120" cy="375"
+                            r="33.5"></circle>
+                    <circle id="pos_10" class="boardPosition position" fill="#EE4424" cx="35" cy="375"
+                            r="33.5"></circle>
+                    <circle id="pos_9" class="boardPosition position" fill="#FFFFFF" cx="35" cy="460" r="33.5"></circle>
+                    <circle id="pos_8" class="boardPosition position" fill="#FFFFFF" cx="35" cy="545" r="33.5"></circle>
+                    <circle id="pos_7" class="boardPosition position" fill="#FFFFFF" cx="120" cy="545"
+                            r="33.5"></circle>
+                    <circle id="pos_6" class="boardPosition position" fill="#FFFFFF" cx="205" cy="545"
+                            r="33.5"></circle>
+                    <circle id="pos_5" class="boardPosition position" fill="#FFFFFF" cx="290" cy="545"
+                            r="33.5"></circle>
+                    <circle id="pos_4" class="boardPosition position" fill="#FFFFFF" cx="375" cy="545"
+                            r="33.5"></circle>
+                    <circle id="pos_3" class="boardPosition position" fill="#FFFFFF" cx="375" cy="630"
+                            r="33.5"></circle>
+                    <circle id="pos_2" class="boardPosition position" fill="#FFFFFF" cx="375" cy="715"
+                            r="33.5"></circle>
+                    <circle id="pos_1" class="boardPosition position" fill="#FFFFFF" cx="375" cy="800"
+                            r="33.5"></circle>
+                    <circle id="pos_0" class="boardPosition position" fill="#FFEA51" cx="375" cy="885"
+                            r="33.5"></circle>
                 </g>
                 <g id="wining_positions" transform="translate(115.000000, 115.000000)" stroke="#000000"
                    stroke-width="2">
-                    <g id="blue" transform="translate(340.000000, 0.000000)" fill="#369AE0">
-                        <circle id="Oval-Copy-59" cx="25" cy="25" r="24"></circle>
-                        <circle id="Oval-Copy-60" cx="25" cy="110" r="24"></circle>
-                        <circle id="Oval-Copy-61" cx="25" cy="195" r="24"></circle>
-                        <circle id="Oval-Copy-75" cx="25" cy="280" r="24"></circle>
+                    <g id="yellow" fill="#FFEA51">
+                        <circle id="win_position_3" class="winPosition position yellow" cx="365" cy="450"
+                                r="24"></circle>
+                        <circle id="win_position_2" class="winPosition position yellow" cx="365" cy="535"
+                                r="24"></circle>
+                        <circle id="win_position_1" class="winPosition position yellow" cx="365" cy="620"
+                                r="24"></circle>
+                        <circle id="win_position_0" class="winPosition position yellow" cx="365" cy="705"
+                                r="24"></circle>
                     </g>
-                    <g id="yellow" transform="translate(340.000000, 425.000000)" fill="#FFEA51">
-                        <circle id="Oval-Copy-59" cx="25" cy="25" r="24"></circle>
-                        <circle id="Oval-Copy-60" cx="25" cy="110" r="24"></circle>
-                        <circle id="Oval-Copy-61" cx="25" cy="195" r="24"></circle>
-                        <circle id="Oval-Copy-75" cx="25" cy="280" r="24"></circle>
+                    <g id="red" fill="#EE4424">
+                        <circle id="win_position_4" class="winPosition position red" cx="25" cy="365" r="24"></circle>
+                        <circle id="win_position_5" class="winPosition position red" cx="110" cy="365" r="24"></circle>
+                        <circle id="win_position_6" class="winPosition position red" cx="195" cy="365" r="24"></circle>
+                        <circle id="win_position_7" class="winPosition position red" cx="280" cy="365" r="24"></circle>
                     </g>
-                    <g id="red" transform="translate(0.000000, 340.000000)" fill="#EE4424">
-                        <circle id="Oval-Copy-59"
-                                transform="translate(25.000000, 25.000000) rotate(-90.000000) translate(-25.000000, -25.000000) "
-                                cx="25" cy="25" r="24"></circle>
-                        <circle id="Oval-Copy-60"
-                                transform="translate(110.000000, 25.000000) rotate(-90.000000) translate(-110.000000, -25.000000) "
-                                cx="110" cy="25" r="24"></circle>
-                        <circle id="Oval-Copy-61"
-                                transform="translate(195.000000, 25.000000) rotate(-90.000000) translate(-195.000000, -25.000000) "
-                                cx="195" cy="25" r="24"></circle>
-                        <circle id="Oval-Copy-75"
-                                transform="translate(280.000000, 25.000000) rotate(-90.000000) translate(-280.000000, -25.000000) "
-                                cx="280" cy="25" r="24"></circle>
+                    <g id="green" fill="#14B54F">
+                        <circle id="win_position_11" class="winPosition position green" cx="450" cy="365"
+                                r="24"></circle>
+                        <circle id="win_position_10" class="winPosition position green" cx="535" cy="365"
+                                r="24"></circle>
+                        <circle id="win_position_9" class="winPosition position green" cx="620" cy="365"
+                                r="24"></circle>
+                        <circle id="win_position_8" class="winPosition position green" cx="705" cy="365"
+                                r="24"></circle>
                     </g>
-                    <g id="green" transform="translate(425.000000, 340.000000)" fill="#14B54F">
-                        <circle id="Oval-Copy-59"
-                                transform="translate(25.000000, 25.000000) rotate(-90.000000) translate(-25.000000, -25.000000) "
-                                cx="25" cy="25" r="24"></circle>
-                        <circle id="Oval-Copy-60"
-                                transform="translate(110.000000, 25.000000) rotate(-90.000000) translate(-110.000000, -25.000000) "
-                                cx="110" cy="25" r="24"></circle>
-                        <circle id="Oval-Copy-61"
-                                transform="translate(195.000000, 25.000000) rotate(-90.000000) translate(-195.000000, -25.000000) "
-                                cx="195" cy="25" r="24"></circle>
-                        <circle id="Oval-Copy-75"
-                                transform="translate(280.000000, 25.000000) rotate(-90.000000) translate(-280.000000, -25.000000) "
-                                cx="280" cy="25" r="24"></circle>
+                    <g id="blue" fill="#369AE0">
+                        <circle id="win_position_12" class="winPosition position blue" cx="365" cy="25" r="24"></circle>
+                        <circle id="win_position_13" class="winPosition position blue" cx="365" cy="110"
+                                r="24"></circle>
+                        <circle id="win_position_14" class="winPosition position blue" cx="365" cy="195"
+                                r="24"></circle>
+                        <circle id="win_position_15" class="winPosition position blue" cx="365" cy="280"
+                                r="24"></circle>
                     </g>
                 </g>
                 <g id="starting_positions" transform="translate(20.000000, 20.000000)" stroke="#000000"
                    stroke-width="3">
-                    <g id="yellow" transform="translate(0.000000, 765.000000)" fill="#FFEA51">
-                        <circle id="Oval-Copy-6" cx="35" cy="120" r="33.5"></circle>
-                        <circle id="Oval-Copy-8" cx="35" cy="35" r="33.5"></circle>
-                        <circle id="Oval-Copy-7" cx="120" cy="120" r="33.5"></circle>
-                        <circle id="Oval-Copy-72" cx="120" cy="35" r="33.5"></circle>
+                    <g id="yellow" fill="#FFEA51">
+                        <circle id="start_position_0" class="startPosition position yellow" cx="35" cy="885"
+                                r="33.5"></circle>
+                        <circle id="start_position_1" class="startPosition position yellow" cx="35" cy="800"
+                                r="33.5"></circle>
+                        <circle id="start_position_2" class="startPosition position yellow" cx="120" cy="885"
+                                r="33.5"></circle>
+                        <circle id="start_position_3" class="startPosition position yellow" cx="120" cy="800"
+                                r="33.5"></circle>
                     </g>
                     <g id="red" fill="#EE4424">
-                        <circle id="Oval-Copy-24" cx="35" cy="35" r="33.5"></circle>
-                        <circle id="Oval-Copy-26" cx="35" cy="120" r="33.5"></circle>
-                        <circle id="Oval-Copy-27" cx="120" cy="35" r="33.5"></circle>
-                        <circle id="Oval-Copy-29" cx="120" cy="120" r="33.5"></circle>
+                        <circle id="start_position_4" class="startPosition position red" cx="35" cy="35"
+                                r="33.5"></circle>
+                        <circle id="start_position_5" class="startPosition position red" cx="35" cy="120"
+                                r="33.5"></circle>
+                        <circle id="start_position_6" class="startPosition position red" cx="120" cy="35"
+                                r="33.5"></circle>
+                        <circle id="start_position_7" class="startPosition position red" cx="120" cy="120"
+                                r="33.5"></circle>
                     </g>
-                    <g id="green" transform="translate(765.000000, 765.000000)" fill="#14B54F">
-                        <circle id="Oval-Copy-9" cx="35" cy="120" r="33.5"></circle>
-                        <circle id="Oval-Copy-73" cx="35" cy="35" r="33.5"></circle>
-                        <circle id="Oval-Copy-10" cx="120" cy="120" r="33.5"></circle>
-                        <circle id="Oval-Copy-74" cx="120" cy="35" r="33.5"></circle>
+                    <g id="green" fill="#14B54F">
+                        <circle id="start_position_8" class="startPosition position green" cx="800" cy="885"
+                                r="33.5"></circle>
+                        <circle id="start_position_9" class="startPosition position green" cx="800" cy="800"
+                                r="33.5"></circle>
+                        <circle id="start_position_10" class="startPosition position green" cx="885" cy="885"
+                                r="33.5"></circle>
+                        <circle id="start_position_11" class="startPosition position green" cx="885" cy="800"
+                                r="33.5"></circle>
                     </g>
-                    <g id="blue" transform="translate(765.000000, 0.000000)" fill="#369AE0">
-                        <circle id="Oval-Copy-30" cx="35" cy="35" r="33.5"></circle>
-                        <circle id="Oval-Copy-32" cx="35" cy="120" r="33.5"></circle>
-                        <circle id="Oval-Copy-31" cx="120" cy="35" r="33.5"></circle>
-                        <circle id="Oval-Copy-33" cx="120" cy="120" r="33.5"></circle>
+                    <g id="blue" fill="#369AE0">
+                        <circle id="start_position_12" class="startPosition position blue" cx="800" cy="35"
+                                r="33.5"></circle>
+                        <circle id="start_position_13" class="startPosition position blue" cx="800" cy="120"
+                                r="33.5"></circle>
+                        <circle id="start_position_14" class="startPosition position blue" cx="885" cy="35"
+                                r="33.5"></circle>
+                        <circle id="start_position_15" class="startPosition position blue" cx="885" cy="120"
+                                r="33.5"></circle>
                     </g>
                 </g>
                 <g id="figures" transform="translate(0.000000, 0.000000)" stroke-width="1.45454545">
-                    <g id="figure_yellow_3" class="draggable figure" transform="translate(3,3)"
-                       fill="#FFEA51" stroke="#695C00">
-                        <path d="M0.727272727,48.5985577 L0.727272727,54.9621414 C5.8318712,57.8389816 10.9200731,59.2727273 16,59.2727273 C21.0799269,59.2727273 26.1681288,57.8389816 31.2727273,54.9621414 L31.2727273,48.5985577 L16,34.2441937 L0.727272727,48.5985577 Z"
-                              id="stomp"></path>
-                        <path d="M31.1303065,47.9414475 L22.303234,19.8044006 C19.8889949,20.8112323 17.7907871,21.3189887 16,21.3189887 C14.2092129,21.3189887 12.1110051,20.8112323 9.69676602,19.8044006 L0.869693502,47.9414475 C5.92651644,50.764935 10.9673191,52.1721356 16,52.1721356 C21.0326809,52.1721356 26.0734836,50.764935 31.1303051,47.9414436 Z"
-                              id="body"></path>
-                        <ellipse id="head" cx="16" cy="10.6508876" rx="9.93939394" ry="9.92361485"></ellipse>
+                    <g id="figure_yellow_0" class="draggable figure player yellow" fill="#FFEA51" stroke="#756807">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
                     </g>
-                    <g id="figure_yellow_2" class="draggable figure" transform="translate(0.000000, 765.000000)"
-                       fill="#FFEA51"
-                       stroke="#695C00">
-                        <path d="M0.727272727,48.5985577 L0.727272727,54.9621414 C5.8318712,57.8389816 10.9200731,59.2727273 16,59.2727273 C21.0799269,59.2727273 26.1681288,57.8389816 31.2727273,54.9621414 L31.2727273,48.5985577 L16,34.2441937 L0.727272727,48.5985577 Z"
-                              id="stomp"></path>
-                        <path d="M31.1303065,47.9414475 L22.303234,19.8044006 C19.8889949,20.8112323 17.7907871,21.3189887 16,21.3189887 C14.2092129,21.3189887 12.1110051,20.8112323 9.69676602,19.8044006 L0.869693502,47.9414475 C5.92651644,50.764935 10.9673191,52.1721356 16,52.1721356 C21.0326809,52.1721356 26.0734836,50.764935 31.1303051,47.9414436 Z"
-                              id="body"></path>
-                        <ellipse id="head" cx="16" cy="10.6508876" rx="9.93939394" ry="9.92361485"></ellipse>
+                    <g id="figure_yellow_1" class="draggable figure player yellow" fill="#FFEA51" stroke="#756807">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
                     </g>
-                    <g id="figure_yellow_1" class="draggable figure" transform="translate(85.000000, 680.000000)"
-                       fill="#FFEA51" stroke="#695C00">
-                        <path d="M0.727272727,48.5985577 L0.727272727,54.9621414 C5.8318712,57.8389816 10.9200731,59.2727273 16,59.2727273 C21.0799269,59.2727273 26.1681288,57.8389816 31.2727273,54.9621414 L31.2727273,48.5985577 L16,34.2441937 L0.727272727,48.5985577 Z"
-                              id="stomp"></path>
-                        <path d="M31.1303065,47.9414475 L22.303234,19.8044006 C19.8889949,20.8112323 17.7907871,21.3189887 16,21.3189887 C14.2092129,21.3189887 12.1110051,20.8112323 9.69676602,19.8044006 L0.869693502,47.9414475 C5.92651644,50.764935 10.9673191,52.1721356 16,52.1721356 C21.0326809,52.1721356 26.0734836,50.764935 31.1303051,47.9414436 Z"
-                              id="body"></path>
-                        <ellipse id="head" cx="16" cy="10.6508876" rx="9.93939394" ry="9.92361485"></ellipse>
+                    <g id="figure_yellow_2" class="draggable figure player yellow" fill="#FFEA51" stroke="#756807">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
                     </g>
-                    <g id="figure_yellow_0" class="draggable figure" transform="translate(0.000000, 680.000000)"
-                       fill="#FFEA51"
-                       stroke="#695C00">
-                        <path d="M0.727272727,48.5985577 L0.727272727,54.9621414 C5.8318712,57.8389816 10.9200731,59.2727273 16,59.2727273 C21.0799269,59.2727273 26.1681288,57.8389816 31.2727273,54.9621414 L31.2727273,48.5985577 L16,34.2441937 L0.727272727,48.5985577 Z"
-                              id="stomp"></path>
-                        <path d="M31.1303065,47.9414475 L22.303234,19.8044006 C19.8889949,20.8112323 17.7907871,21.3189887 16,21.3189887 C14.2092129,21.3189887 12.1110051,20.8112323 9.69676602,19.8044006 L0.869693502,47.9414475 C5.92651644,50.764935 10.9673191,52.1721356 16,52.1721356 C21.0326809,52.1721356 26.0734836,50.764935 31.1303051,47.9414436 Z"
-                              id="body"></path>
-                        <ellipse id="head" cx="16" cy="10.6508876" rx="9.93939394" ry="9.92361485"></ellipse>
+                    <g id="figure_yellow_3" class="draggable figure player yellow" fill="#FFEA51" stroke="#756807">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
                     </g>
-                    <g id="figure_red_2" fill="#EE4424" stroke="#9B0000">
-                        <path d="M0.727272727,48.5985577 L0.727272727,54.9621414 C5.8318712,57.8389816 10.9200731,59.2727273 16,59.2727273 C21.0799269,59.2727273 26.1681288,57.8389816 31.2727273,54.9621414 L31.2727273,48.5985577 L16,34.2441937 L0.727272727,48.5985577 Z"
-                              id="stomp"></path>
-                        <path d="M31.1303065,47.9414475 L22.303234,19.8044006 C19.8889949,20.8112323 17.7907871,21.3189887 16,21.3189887 C14.2092129,21.3189887 12.1110051,20.8112323 9.69676602,19.8044006 L0.869693502,47.9414475 C5.92651644,50.764935 10.9673191,52.1721356 16,52.1721356 C21.0326809,52.1721356 26.0734836,50.764935 31.1303051,47.9414436 Z"
-                              id="body"></path>
-                        <ellipse id="head" cx="16" cy="10.6508876" rx="9.93939394" ry="9.92361485"></ellipse>
+
+                    <g id="figure_red_4" class="draggable figure player red" fill="#EE4424" stroke="#9B0000">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+                    </g>
+                    <g id="figure_red_5" class="draggable figure player red" fill="#EE4424" stroke="#9B0000">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+                    </g>
+                    <g id="figure_red_6" class="draggable figure player red" fill="#EE4424" stroke="#9B0000">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+                    </g>
+                    <g id="figure_red_7" class="draggable figure player red" fill="#EE4424" stroke="#9B0000">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+                    </g>
+
+                    <g id="figure_green_8" class="draggable figure player green" fill="#14B54F" stroke="#076128">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+                    </g>
+                    <g id="figure_green_9" class="draggable figure player green" fill="#14B54F" stroke="#076128">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+                    </g>
+                    <g id="figure_green_10" class="draggable figure player green" fill="#14B54F" stroke="#076128">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+                    </g>
+                    <g id="figure_green_11" class="draggable figure player green" fill="#14B54F" stroke="#076128">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+                    </g>
+
+                    <g id="figure_blue_12" class="draggable figure player blue" fill="#369AE0" stroke="#07436d">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+                    </g>
+                    <g id="figure_blue_13" class="draggable figure player blue" fill="#369AE0" stroke="#07436d">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+                    </g>
+                    <g id="figure_blue_14" class="draggable figure player blue" fill="#369AE0" stroke="#07436d">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+                    </g>
+                    <g id="figure_blue_15" class="draggable figure player blue" fill="#369AE0" stroke="#07436d">
+                        <path class="st14"
+                              d="M-15.3,18.6V25c4.6,2.7,9.9,4.2,15.3,4.3c5.4-0.1,10.6-1.5,15.3-4.3v-6.4L0,4.2L-15.3,18.6z"></path>
+                        <path class="st14"
+                              d="M15.1,17.9L6.3-10.2C4.3-9.3,2.2-8.8,0-8.7c-2.2-0.1-4.3-0.6-6.3-1.5l-8.8,28.1c4.6,2.7,9.8,4.1,15.1,4.2C5.3,22.1,10.5,20.6,15.1,17.9z"></path>
+                        <ellipse class="st15" cx="0" cy="-19.4" rx="9.9" ry="9.9"></ellipse>
+                    </g>
+
+                </g>
+                <g id="dice" class="clickable dice" transform="translate(455.000000, 455.000000)">
+                    <rect id="Rectangle" stroke="#000000" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="48"
+                          height="48" rx="10"></rect>
+                    <g id="dice_1" style="display:none;" transform="translate(21.000000, 21.000000)" fill="#000000">
+                        <circle id="Oval" cx="4" cy="4" r="4"></circle>
+                    </g>
+                    <g id="dice_2" style="display:none;" transform="translate(7.000000, 8.000000)" fill="#000000">
+                        <circle id="Oval-Copy-12" cx="32" cy="30" r="4"></circle>
+                        <circle id="Oval-Copy-5" cx="4" cy="4" r="4"></circle>
+                    </g>
+                    <g id="dice_3" style="display:none;" transform="translate(7.000000, 8.000000)" fill="#000000">
+                        <circle id="Oval" cx="18" cy="17" r="4"></circle>
+                        <circle id="Oval-Copy-12" cx="32" cy="30" r="4"></circle>
+                        <circle id="Oval-Copy-5" cx="4" cy="4" r="4"></circle>
+                    </g>
+                    <g id="dice_4" style="display:none;" transform="translate(7.000000, 8.000000)" fill="#000000">
+                        <circle id="Oval-Copy-4" cx="32" cy="4" r="4"></circle>
+                        <circle id="Oval-Copy-12" cx="32" cy="30" r="4"></circle>
+                        <circle id="Oval-Copy-5" cx="4" cy="4" r="4"></circle>
+                        <circle id="Oval-Copy-13" cx="4" cy="30" r="4"></circle>
+                    </g>
+                    <g id="dice_5" style="display:none;" transform="translate(7.000000, 8.000000)" fill="#000000">
+                        <circle id="Oval" cx="18" cy="17" r="4"></circle>
+                        <circle id="Oval-Copy-4" cx="32" cy="4" r="4"></circle>
+                        <circle id="Oval-Copy-12" cx="32" cy="30" r="4"></circle>
+                        <circle id="Oval-Copy-5" cx="4" cy="4" r="4"></circle>
+                        <circle id="Oval-Copy-13" cx="4" cy="30" r="4"></circle>
+                    </g>
+                    <g id="dice_6" style="display:none;" transform="translate(7.000000, 8.000000)" fill="#000000">
+                        <circle id="Oval-Copy" cx="32" cy="17" r="4"></circle>
+                        <circle id="Oval-Copy-4" cx="32" cy="4" r="4"></circle>
+                        <circle id="Oval-Copy-12" cx="32" cy="30" r="4"></circle>
+                        <circle id="Oval-Copy-2" cx="4" cy="17" r="4"></circle>
+                        <circle id="Oval-Copy-5" cx="4" cy="4" r="4"></circle>
+                        <circle id="Oval-Copy-13" cx="4" cy="30" r="4"></circle>
                     </g>
                 </g>
             </g>
