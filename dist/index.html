@@ -3,9 +3,22 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Title</title>
+		<link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+
 		<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
+
+		<div class="mainMenu" id="mainMenu">
+			<div class="container">
+				<h1>Člověče, nezlob se !</h1>
+				<p>Hráčů: <span id="connected_count">0</span>/4</p>
+				<div class="wrap">
+					<button class="button" id="start_game_btn">Hrát !</button>
+				</div>
+			</div>
+		</div>
+
 		<div class="sidebar">
 			<div style="font-size: 20pt;">
 				You are: <b id="my_name">OPA</b>
@@ -21,7 +34,9 @@
 
 			</ul>
 
-			<button id="start_game_btn">Start Game</button>
+			<div class="wrap">
+				<button class="button" id="restart_game_btn">Restart</button>
+			</div>
 		</div>
 		<div class="board">
 			<svg width="970px" height="970px" viewBox="0 0 970 970" version="1.1" xmlns="http://www.w3.org/2000/svg">

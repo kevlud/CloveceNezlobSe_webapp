@@ -1,4 +1,5 @@
-import { Board } from "./Board.js";
+import {Board} from "./Board.js";
+
 // @ts-ignore
 export class Game {
     constructor() {
@@ -21,6 +22,7 @@ export class Game {
         this.onPlayerList = (playerList) => {
             this.printUsers(JSON.parse(playerList));
             console.log(JSON.parse(playerList));
+            document.getElementById('connected_count').innerText = JSON.parse(playerList).length;
             if (JSON.parse(playerList).length >= 2)
                 document.getElementById('start_game_btn').style.display = 'block';
             else
@@ -31,6 +33,7 @@ export class Game {
             console.log('U can choose color');
         };
         this.onStartGame = (playerColor) => {
+            document.getElementById('mainMenu').style.display = 'none';
             if (playerColor !== null)
                 this.board = new Board(playerColor);
             document.getElementById('my_color').innerText = playerColor;
@@ -55,8 +58,7 @@ export class Game {
             if (this.throwDiceNumber == 3) {
                 this.canThrowThreeTimes = true;
                 this.startedWithThreeTimesThrow = true;
-            }
-            else
+            } else
                 this.canThrowOneTime = true;
             console.log('Can throw dice ' + this.throwDiceNumber + ' times.');
             document.getElementById('status').innerText = 'My turn';
@@ -75,23 +77,18 @@ export class Game {
                 if (this.canThrowThreeTimes && thrownNumber == 6) {
                     this.canThrowThreeTimes = false;
                     this.canThrowOneTime = true;
-                }
-                else if (this.canThrowTwoTimes && thrownNumber == 6) {
+                } else if (this.canThrowTwoTimes && thrownNumber == 6) {
                     this.canThrowTwoTimes = false;
                     this.canThrowOneTime = true;
-                }
-                else if (this.canThrowOneTime && thrownNumber == 6) {
+                } else if (this.canThrowOneTime && thrownNumber == 6) {
                     this.canThrowOneTime = true;
-                }
-                else if (this.canThrowThreeTimes) {
+                } else if (this.canThrowThreeTimes) {
                     this.canThrowThreeTimes = false;
                     this.canThrowTwoTimes = true;
-                }
-                else if (this.canThrowTwoTimes) {
+                } else if (this.canThrowTwoTimes) {
                     this.canThrowTwoTimes = false;
                     this.canThrowOneTime = true;
-                }
-                else if (this.canThrowOneTime) {
+                } else if (this.canThrowOneTime) {
                     this.canThrowOneTime = false;
                 }
                 if (!this.canThrowOneTime && !this.canThrowTwoTimes && !this.canThrowOneTime && this.myTurn && !this.didMoveFigure && this.startedWithThreeTimesThrow)
@@ -155,10 +152,13 @@ export class Game {
         this.initSocket();
         this.initSidebar();
     }
+
     // BEGIN SIDEBAR
     initSidebar() {
         document.getElementById('start_game_btn').addEventListener('click', this.onStartGameButton);
+        document.getElementById('restart_game_btn').addEventListener('click', this.onStartGameButton);
     }
+
     printUsers(users) {
         let list = document.getElementById('playerList');
         list.innerHTML = '';
@@ -168,6 +168,7 @@ export class Game {
             list.append(newUserItem);
         }
     }
+
     // END SIDEBAR
     // BEGIN SOCKET.IO
     initSocket() {
@@ -181,6 +182,7 @@ export class Game {
         this.socket.on('other moved', this.onOtherMoved);
         this.socket.on('your move', this.onMyMove);
     }
+
     emitMyFigureMoved() {
         console.log('MyFigureMoved');
         this.didMoveFigure = true;
@@ -194,6 +196,7 @@ export class Game {
         // Hide dice numbers
         this.svgBoard.querySelectorAll('#dice > g').forEach((e) => e.style.display = "none");
     }
+
     emitMyTurnEnded() {
         console.log('MyTurnEnded');
         this.myTurn = false;
@@ -205,6 +208,7 @@ export class Game {
         // Hide dice
         this.svgBoard.querySelectorAll('#dice').forEach((e) => e.style.display = "none");
     }
+
     // END Click Events
     // BEGIN Mouse movement
     createUserEvents() {
@@ -216,6 +220,7 @@ export class Game {
         this.svgBoard.addEventListener("touchend", this.releaseEventHandler);
         this.svgBoard.addEventListener("click", this.clickEventHandler);
     }
+
     getMousePosition(evt) {
         var CTM = this.svgBoard.getScreenCTM();
         return {
@@ -223,6 +228,7 @@ export class Game {
             y: (evt.clientY - CTM.f) / CTM.d
         };
     }
+
     static snapToBoardPosition(figureId, boardPositionId) {
         if (!figureId || !boardPositionId)
             return;
@@ -237,10 +243,12 @@ export class Game {
             targetX = boardX + 20, targetY = boardY + 20;
         Game.translateElement(figure, targetX, targetY - 15);
     }
+
     static translateElement(element, x, y) {
         element.style.transform = "translate(" + x + "px," + y + "px)";
         element.parentElement.append(element);
     }
+
     static is_colliding(element1, element2) {
         // Div 1 data
         var r1 = element1.getBoundingClientRect(); //BOUNDING BOX OF THE FIRST OBJECT
@@ -253,4 +261,5 @@ export class Game {
     }
     ;
 }
+
 //# sourceMappingURL=Game.js.map

@@ -56,6 +56,7 @@ export class Game {
     }
 
     private onStartGameButton = (e: MouseEvent) => {
+
         this.socket.emit('initialize game')
     }
 
@@ -83,6 +84,8 @@ export class Game {
     private onPlayerList = (playerList) => {
         this.printUsers(JSON.parse(playerList))
         console.log(JSON.parse(playerList))
+
+        document.getElementById('connected_count').innerText = JSON.parse(playerList).length;
         if (JSON.parse(playerList).length >= 2)
             document.getElementById('start_game_btn').style.display = 'block';
         else
@@ -97,6 +100,9 @@ export class Game {
 
 
     private onStartGame = (playerColor) => {
+
+        document.getElementById('mainMenu').style.display = 'none';
+
         if (playerColor !== null)
             this.board = new Board(playerColor);
         document.getElementById('my_color').innerText = playerColor;

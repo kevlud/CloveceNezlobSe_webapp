@@ -1,6 +1,27 @@
+body {
+    font-family: 'Alata', sans-serif;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(150deg, #efd5ff 0%, #515ada 100%);
+}
+
+.board {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(150deg, #efd5ff 0%, #515ada 100%);
+}
+
 .board svg {
     margin: 0 auto;
     display: block;
+    height: 100%;
 }
 
 
@@ -13,5 +34,75 @@
 }
 
 .sidebar {
+    z-index: 50;
     position: absolute;
+}
+
+
+.mainMenu {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(150deg, #efd5ff 0%, #515ada 100%);
+}
+
+.mainMenu .container {
+    width: 400px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 20em;
+    text-align: center;
+}
+
+
+.mainMenu .container p {
+    font-size: 2em;
+}
+
+
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 160px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-4px);
+}
+
+
+.button.disabled:hover {
+    transform: none;
+    box-shadow: none;
+    background-color: lightgray;
+}
+
+.button.disabled {
+    color: white;
+    background-color: lightgray;
 }
