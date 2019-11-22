@@ -21,7 +21,13 @@ body {
 .board svg {
     margin: 0 auto;
     display: block;
-    height: 100%;
+
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -485px 0 0 -485px;
 }
 
 
